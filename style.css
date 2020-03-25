@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    padding: 30px;
+margin: 5px;
+    background-color: brown;
+}
+
+ul{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(206, 113, 47);
+/*list-style: circle;*/
+/*list-style-type: disc;*/
+list-style-position: outside;
+list-style-image:url(/lipstick.svg);
+}
+ul li{
+    display: inline-block;
+    border: 1px solid lightcoral;
+    }
+ul li:after{
+content: "  | ";
+}
+ul li:last-child:after{content: "";}
+article{
+    height: 50px;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(131, 168, 189);
+    background-position:bottom;
+    background-image: url(/lipstick.svg);
+    background-attachment: scroll;
+    background-repeat: repeat-y;
+}
+
+.div2 {
+padding: 10px;
+margin: 5px;
+height: 300px;
+    background: rgb(122, 84, 84);
+    color: rgb(15, 19, 10);
+    direction: rtl;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+    line-height: 300%;
+    text-align: center;
+    text-decoration: rgb(87, 155, 155);
+    text-indent: 200px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    white-space: normal;
+    overflow: hidden;
+    text-shadow: brown;
+}
+.shsho{
+    padding: 20px;
+    margin: 5px;
+    background-color: cadetblue;
+
+}
+
+a{
+    color: cyan;
+    /*text-decoration:none;*/
+}
+a:hover{
+    color: darkcyan;
+}
+a:active{
+    color:blueviolet
+}

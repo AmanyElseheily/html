@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #ddd; 
+            font-family: Arial, tahoma;
+        }
+        fieldset{
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-bottom:20px;
+            padding:20px;
+            width: 500px;
+            margin:20px auto;
+        }
+
+legend
+{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding:10px;
+}
+label,select
+{
+    display:block;
+}
+label{
+    margin-bottom:5px; 
+}
+input[type="text"],input[type="password"],input[type="email"],textarea
+{
+    margin-bottom: 10px;
+    padding:10px;
+    width: 300px;
+    display:block;
+}
+input{
+    margin-bottom: 10px;
+}
+hr{
+    border:1px solid #eee;
+}
+textarea{
+    height: 200px;
+}
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+            <label>user name</label>
+            <input type="text" name="username">
+            <label>your password</label>
+            <input type="password" name="password">
+            <label>email</label>
+            <input type="email" name="email">
+            <lable>gender</lable>
+            <select name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>your favorite</legend>
+            <label>your favorite text editor</label>
+            <input type="radio" name="editor">komodo edit<br>
+            <input type="radio" name="editor">netbeans<br>
+            <input type="radio" name="editor">vscode
+           <hr>
+            <label>your favorite browser</label>
+            <input type="radio" name="browser">opera<br>
+            <input type="radio" name="browser">chrome<br>
+            <input type="radio" name="browser">mozila
+          <hr>
+        <label>your favorite operating System</label>
+            <input type="checkbox">mac<br>
+            <input type="checkbox">windows<br>
+            <input type="checkbox">lunix
+</fieldset>
+        
+        
+<fieldset>
+    <legend>your message</legend>
+        <textarea></textarea>
+            <input type="submit" vlaue="send your data">
+</fieldset>
+
+    </form>
+</body>
+</html>
